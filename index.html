@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Calculator Test</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<form action="#" method="post">
+			<div class="row">
+				<label for="weight">Вес изделия</label>
+				<input class="weight" id="weight" type="text" placeholder="15 г">
+			</div>
+			<div class="row sample-box">
+				<label for="sample">Проба металла</label>
+				<select class="sample-select"  id="sample" >
+					<option >585 проба</option>
+					<option >600 проба</option>
+					<option >666 проба</option>
+				</select>
+			</div>
+			<div class="additional-services-box">
+				<div class="checkbox-wrapper">
+					<input type="checkbox" id="additional-services" checked>
+					<label for="additional-services"></label>
+				</div>
+				<span class="checkbox-name">Камни и вставки</span>
+				<div class="additional-info">
+					<span>
+						Окончательная оценочная стоимость залога может отличаться от указанной в расчете
+					</span>
+				</div>
+			</div>
+			<div class="row tariff-box">
+				<label for="tariff">Тарифный план</label>
+				<i><img src="img/info-icon.png" alt="info-icon"></i>
+				<div class="tooltip"><span>Всплывающая подсказка</span></div>
+				<select class="tariff-plan"  id="tariff" >
+					<option >«Простой»</option>
+					<option >«Не простой»</option>
+					<option >«Особый»</option>
+				</select>
+			</div>
+			<div class="row discount-status-box">
+				<label for="discount-status">Ваш дисконтный статус</label>
+				<select class="discount-status"  id="discount-status" >
+					<option >Без статуса</option>
+					<option >Стандарт</option>
+					<option >Бизнес</option>
+				</select>
+			</div>
+			<div class="row credit-term-box">
+				<label for="credit-term">Срок кредитования до продления</label>
+				<input type="text" id="credit-term" name="example_name"/>
+			</div>
+			<div class="submit-box">
+				<input type="submit" class="send-button" value="Рассчитать кредит">
+			</div>
+		</form>
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/ion.rangeSlider.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
