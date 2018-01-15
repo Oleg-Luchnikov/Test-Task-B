@@ -17,6 +17,12 @@ div, ul, li, p, strong, h1, h2 {
 input {
   border: none; }
 
+input:focus {
+  outline: none; }
+
+.select2-selection--single:focus {
+  outline: none; }
+
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
